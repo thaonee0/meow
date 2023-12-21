@@ -1,0 +1,108 @@
+:root {
+    --swiper-theme-color: #007aff;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    color: #ffffff;
+    height: 80px;
+    justify-content: center;
+    border-bottom: 1px solid #757575;
+    background-color: #14141f;
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+    width: 1410px;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    font-weight: 600;
+    gap: 50px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.search {
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+
+.wallet {
+    background-color: black;
+    color:#ffffff;
+    border: 2px solid #2b1bdb;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    font-weight: 500;
+}
+* {
+    box-sizing: border-box;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    background-color: #14141f;
+}
+
+.container {
+    height: 618px;
+    margin-top: 50px;
+    max-width: 1410px;
+}
+
+.title-content{
+    display:flex;
+    flex-direction: column;
+    color:aliceblue;
+}
+
+h1, h2 {
+    font-size: 5.5rem;
+}
+p{
+    font-size: 2.2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.swipe-slide{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-gradian{
+    -webkit-text-stroke: 3px transparent;
+    -webkit-text-fill-color: #14141f;
+    background: linear-gradient(-45deg,#e250e5,#4b50e6,#e250e5,#4b50e6);
+    -webkit-background-clip: text;
+    background-size: 100% 100%;
+    color:#14141f;
+    font-size: 5.5rem;
+}
+
+.img1{
+    position: absolute;
+}
+
+.img2{
+    position: relative;
+}
+
+.pokemon{
+    position: relative;
+}

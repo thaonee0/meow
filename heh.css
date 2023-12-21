@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+#banner1{
+	height: 600px;
+	background-color: #DC3C3F;
+}
+#bannercontent{
+	height: 250px;
+	background-color: #AA8ED5;
+	border: solid 1pt #E7DCDC;
+	margin-top: 175px;
+}
